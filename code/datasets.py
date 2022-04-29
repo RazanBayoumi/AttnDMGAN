@@ -120,12 +120,12 @@ class TextDataset(data.Dataset):
 
     def load_bbox(self):
         data_dir = self.data_dir
-        bbox_path = os.path.join(data_dir, 'CelebaHQ_2022/bounding_boxes.txt')
+        bbox_path = os.path.join(data_dir, 'CelebA_500_2020/bounding_boxes.txt')
         df_bounding_boxes = pd.read_csv(bbox_path,
                                         delim_whitespace=True,
                                         header=None).astype(int)
         #
-        filepath = os.path.join(data_dir, 'CelebaHQ_2022/images.txt')
+        filepath = os.path.join(data_dir, 'CelebA_500_2020/images.txt')
         df_filenames = \
             pd.read_csv(filepath, delim_whitespace=True, header=None)
         filenames = df_filenames[1].tolist()
@@ -294,7 +294,7 @@ class TextDataset(data.Dataset):
         #
         if self.bbox is not None:
             bbox = self.bbox[key]
-            data_dir = '%s/CelebaHQ_2022' % self.data_dir
+            data_dir = '%s/CelebA_500_2020' % self.data_dir
         else:
             bbox = None
             data_dir = self.data_dir
