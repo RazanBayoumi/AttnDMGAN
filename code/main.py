@@ -119,7 +119,7 @@ if __name__ == "__main__":
 
     now = datetime.datetime.now(dateutil.tz.tzlocal())
     timestamp = now.strftime('%Y_%m_%d_%H_%M_%S')
-    output_dir = '/content/drive/MyDrive/Trained_Models/SecondModel_Birds/%s_%s_%s' % \
+    output_dir = '/content/drive/MyDrive/Trained_Models/AttnDM-GAN(MyDataset)/%s_%s_%s' % \
         (cfg.DATASET_NAME, cfg.CONFIG_NAME, timestamp)
 
     split_dir, bshuffle = 'train', True
