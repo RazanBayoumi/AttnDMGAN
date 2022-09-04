@@ -41,12 +41,17 @@ Link: "TO BE UPDATED"
 ## Training
 #### Birds
 	1- go into code/folder
-	2- python main.py --cfg cfg/birds_DMGAN.yml --gpu 0
+	2- python main.py --cfg cfg/birds_CUB.yml --gpu 0
   
 #### Faces
+###### CelebAText
 	1- go into code/folder
-	2- python main.py --cfg cfg/faces_DMGAN.yml --gpu 0
-
+	2- python main.py --cfg cfg/faces_CelebAText.yml --gpu 0
+	
+###### CelebAText-HQ
+	1- go into code/folder
+	2- python main.py --cfg cfg/faces_CelebAText-HQ.yml --gpu 0
+	
 ## Validation
 #### Birds
 	- Image Generation
