@@ -48,12 +48,12 @@ Link: "TO BE UPDATED"
 	2- python main.py --cfg cfg/faces_DMGAN.yml --gpu 0
 
 ## Validation
-##### Birds
+#### Birds
 	- Image Generation
 		1- go into code/folder
 		2- python main.py --cfg cfg/eval_birds.yml --gpu 0
     
-##### Faces
+#### Faces
 ###### CelebAText
 	- Image Generation
 		1- go into code/folder
