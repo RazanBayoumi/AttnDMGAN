@@ -1,4 +1,4 @@
-CONFIG_NAME: 'attn2'
+CONFIG_NAME: 'attn'
 
 DATASET_NAME: 'faces'
 DATA_DIR: '/content/AttnGAN/data/faces'
@@ -12,7 +12,7 @@ TREE:
 
 TRAIN:
     FLAG: True
-    NET_G: ''  # '../models/bird_AttnGAN2.pth'
+    NET_G: ''  # '../models/bird_model.pth'
     B_NET_D: True
     BATCH_SIZE: 16  # 22
     MAX_EPOCH: 600
