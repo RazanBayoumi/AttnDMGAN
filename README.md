@@ -68,3 +68,5 @@ Link: "TO BE UPDATED"
 	- Image Generation
 		1- go into code/folder
 		2- python main.py --cfg cfg/eval_CelebAText-HQ.yml --gpu 0
+		
+To the work with DMAttnGAN model, you can follow the same previous mentioned steps with this [code](https://github.com/RazanBayoumi/DMAttnGAN/tree/main).
