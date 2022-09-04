@@ -1,7 +1,7 @@
 CONFIG_NAME: 'DMGAN'
 
 DATASET_NAME: 'faces'
-DATA_DIR: '/content/F-MM21/data/faces'
+DATA_DIR: '/content/AttnDMGAN/data/faces'
 GPU_ID: 3
 WORKERS: 0
 
@@ -15,7 +15,7 @@ TRAIN:
     NET_G: ''
     B_NET_D: False
     BATCH_SIZE: 16
-    NET_E: '/content/F-MM21/DAMSMencoders/text_encoder600.pth'
+    NET_E: '/content/AttnDMGAN/DAMSMencoders/text_encoder600.pth'
 
 
 GAN:
@@ -26,4 +26,4 @@ GAN:
 
 TEXT:
     EMBEDDING_DIM: 256
-    CAPTIONS_PER_IMAGE: 10
+    CAPTIONS_PER_IMAGE: 1
