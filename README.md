@@ -3,7 +3,7 @@ This project page provides pytorch code that implements the following papers:
 
 Title: "Text-to-Image Generation Based on AttnDM-GAN and DMAttn-GAN: Applications and Challenges"
 
-Link: "TO BE UPDATED SOON"
+Link: "TO BE UPDATED"
 
 ### How to use
 #### Python
@@ -48,12 +48,18 @@ Link: "TO BE UPDATED SOON"
 	2- python main.py --cfg cfg/faces_DMGAN.yml --gpu 0
 
 ## Validation
-#### Birds
+##### Birds
 	- Image Generation
-		1- go into code/ folder
+		1- go into code/folder
 		2- python main.py --cfg cfg/eval_birds.yml --gpu 0
     
-#### Faces
+##### Faces
+###### CelebAText
 	- Image Generation
-		1- go into code/ folder
-		2- python main.py --cfg cfg/eval_birds.yml --gpu 0
+		1- go into code/folder
+		2- python main.py --cfg cfg/eval_CelebAText.yml --gpu 0
+		
+###### CelebAText-HQ
+	- Image Generation
+		1- go into code/folder
+		2- python main.py --cfg cfg/eval_CelebAText-HQ.yml --gpu 0
